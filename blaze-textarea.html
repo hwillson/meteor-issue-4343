@@ -1,0 +1,19 @@
+<head>
+  <title>blaze-textarea</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> input}}
+  {{> textarea}}
+</body>
+
+<template name="input">
+  <input type="text" value={{value}} />
+</template>
+
+
+<template name="textarea">
+  <textarea>{{value}}</textarea>
+</template>
